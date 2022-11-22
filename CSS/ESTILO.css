@@ -1,0 +1,40 @@
+* { /*Regla 1*/
+
+	font-family: Roboto;
+font-size: 18px; /*Regla 2*/
+}
+body { /*Regla 3*/
+	margin: 0;
+	padding-right: 20%;
+	padding-left: 20%;
+}
+h1 { /*Regla 4*/
+	text-align: center;
+    font-size: 50px;
+    border-radius: 5px;
+}
+h2 { /*Regla 5*/
+	font-size: 30px;
+	background-color: rgba(100, 99, 99, 0.529);
+	border-radius: 5px;
+}
+h3 { /*Regla 6*/
+	font-size: 25px;
+	background-color: rgba(156, 156, 156, 0.529);
+	border-radius: 5px;
+} /*Regla 7*/
+h3 > li {font-size: 20px;}
+span { /*Regla 8*/
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+}
+img { /*Regla 9*/
+	width: 50%;
+	border: solid darkcyan 1px;
+	border-radius: 5px;
+}
+[id$="presentacion"] { /*Regla 10*/
+    width: 75%;
+    height: 50%;
+  }
